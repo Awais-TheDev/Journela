@@ -3,7 +3,7 @@
     overflow-x: hidden;
 }
 body{
-    background-image: url(/Pictures/Background.jpg);        
+    background-image: url(/Zentry/Zentry/Pictures/Background.jpg);        
     background-size: cover;
     background-position: center;
     transition: all 0.5s ease; /* Smooth transition for all elements */
@@ -40,13 +40,25 @@ body{
 .hero_img{
     width: 80%;
     margin: 0 10%;
-    transform: translatex(50px);
-    transition: transform 1.05s ease, opacity 1.05s ease;
+    /* transform: translatex(50px); */
+    /* transition: transform 1.05s ease, opacity 1.05s ease; */
+    animation: shakeX 1s linear infinite alternate !important;
+    
 
 }
+@keyframes shakeX{
+    0%{
+        transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+
 .hero_img:hover{
-    transform: translateY(0); /* Slide into place */
-    animation: slideInUp 1.05s ease forwards; /* Trigger animation */
+    /* transform: translateY(0);  */
+    /* animation: slideInUp 1.05s ease forwards;  */
 }
 .text1{
     margin-top: 12vh;
@@ -76,22 +88,30 @@ body{
     /* opacity: 0; Initially hidden */
     transform: translateY(50px);
     transition: transform 1.05s ease, opacity 1.05s ease;
+    overflow: visible !important;
 }
 
-.iphone:hover {
-    opacity: 1; /* Become visible */
-    transform: translateY(0); /* Slide into place */
-    animation: slideInUp 1.05s ease forwards; /* Trigger animation */
-}
+/* .iphone:hover {
+    opacity: 1; 
+    transform: translateY(0); 
+    animation: slideInUp 1.05s ease forwards; 
+} */
 
 
 .iphone img{
     width: 80%;
-}
-.iphone img:hover{
-    animation: shake 1.5s linear infinite;
+    animation: shake 1s linear infinite alternate;
+    /* overflow-y: hidden; */
 }
 
+@keyframes shake{
+    0%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
 
 
 
@@ -170,6 +190,7 @@ body{
     justify-content: center;
     width: 70%;
 }
+
 .image3{
     display: flex;
     justify-content: center;
