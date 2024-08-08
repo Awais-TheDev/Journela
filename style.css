@@ -272,7 +272,7 @@ body{
     width: 90vw;
 }
 .shuffle-cards{
-    height: 175vh;
+    height: 105vw;
     width: 90vw;
     position: relative;
     left: 5vw;
@@ -281,8 +281,8 @@ body{
     padding-top: 10vh;
 }
 .boxes{
-    width: 320px;
-    height: 420px;
+    width: 22vw;
+    height: 28vw;
     background-color: #ffffff;
     border-radius: 10px;
     padding: 15px;
@@ -296,50 +296,50 @@ body{
     
 }
 .titles{
-    font-size: 20px;
+    font-size: 1.3vw;
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 500;
     left: 0px;
     position: relative;
-    top: 14px;
+    top: 1vw;
 }
 .coma-start{
-    font-size: 50px;
+    font-size: 3vw;
     color: #000;
     position: relative;
-    right: 120px;
-    top: 100px;
+    right: 8.4vw;
+    top: 7vw;
 }
 .comma1{
     right: 160px;
 }
 .para-boxes{
-    font-size: 15px;
+    font-size: 1vw;
     color: #000;
     position: relative;
     text-indent: 35px;
-    top: 75px;
+    top: 5.5vw;
     color: rgb(48, 48, 48);
 }
 .coma-end{
-    font-size: 50px;
+    font-size: 3vw;
     color: #000;
     position: relative;
-    top: 65px;
-    left: 240px;
+    top: 5vw;
+    left: 15vw;
 }
 .names{
-    font-size: 40px;
+    font-size: 2.6vw;
     font-weight: 900;
     font-family: "Oswald" , 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: relative;
-    top: 120px;
+    position: absolute;
+    bottom: 3.5vw;
     letter-spacing: -2px;
     
 }
 .name-1{
-    top: 150px;
+    bottom: 3.5vw;
 }
 .box1{
     position: absolute;
@@ -379,14 +379,14 @@ body{
     transform: rotate(-10deg);
     left: 50vw;
     top: 30vw;
-    height: 450px;
+    height: 31vw;
 }
 .box7{
     position: absolute;
     transform: rotate(2deg);
     left: 23vw;
     top: 65vw;
-    height: 450px;
+    height: 32vw;
 }
 .box8{
     position: absolute;

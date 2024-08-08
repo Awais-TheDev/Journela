@@ -354,11 +354,11 @@ h1,h2,h3{
 }
 
 .ViewProjectButton{
-    height: 10vw;
-    width: 10vw;
+    height: 8.5vw;
+    width: 8.5vw;
     background: transparent;
     border-radius: 50%;
-    font-size: 13px;
+    font-size: 1vw;
     font-weight: 600;
     line-height: 20px;
     border: 1px solid #fff !important;
@@ -379,16 +379,17 @@ h1,h2,h3{
 }
 
 .tagsContainer{
-    height: 5vw;
+    min-height: 4vw;
     width: 100%;
     flex-wrap: wrap;
     display: flex;
+    justify-content: start;
     align-items: end;
     gap: 6px;
     
 }
 .tagsContainer button{
-    height: 3vw;
+    height: 2vw;
     width: auto;
     padding: 1vw 1vw;
     background: transparent;
