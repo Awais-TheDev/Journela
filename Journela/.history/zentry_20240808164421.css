@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: darkgrey;
+}
+
+.hero_heading{
+    text-align: center;
+    color: white;
+    font-family: ;
+}

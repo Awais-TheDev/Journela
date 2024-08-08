@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@700&family=PT+Sans+Narrow:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    overflow-x: hidden;
+    background-image: url('bg\ new.png');
+    background-repeat: no-repeat;
+    width: 100vw;
+    font-family: 'poppins',Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 0; 
+    display: none;
+}
+ ::-webkit-scrollbar-thumb {
+    background: #FF0000;
+    display: none;
+}
+
+.mockup{
+    width: 100%;
+    height: fit-content;
+    margin-top: 0px;
+    margin-left: -1vw;
+}
+.box{
+    width: 100vw;
+    height: 70vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('dora2.png');
+    display: flex;
+
+}
+.mac1{
+    position: relative;
+    width: 100vw;
+    height: 84vw;
+    animation: opacityTransition ease-in 1s ;
+}
+@keyframes opacityTransition{
+    0%{
+        opacity: 0;
+    }
+    1000%{
+        opacity: 1;
+    }
+}
+.logo-img{
+    background-size: contain;
+    width: 70vw;
+    height: 20vw;
+    /* position: relative;
+    right: 30vw;
+    top: 18vw; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -30vw;
+    margin-right: 10vw;
+    margin-top: 20vw;
+}
+.box2{
+    display: flex;
+}
+.t1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 70vw;
+    padding: 35px 70px 60px 30px;
+    border: 3.5px solid #b7b7b7;
+    background-image: linear-gradient(#82b8d7, #c3dbea);
+    height: fit-content;
+    border-radius: 15px;
+    font-size: 1.8vw;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 10vw;
+    line-height: -10px;
+    
+}
+.img-mob{
+    width: 37vw;
+    height: 42vw;
+    margin-left: 4vw;
+    margin-top: -8vw;
+}
+.box3{
+    /* background-image: 
+    linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(0, 128, 255, 0)20%),
+    linear-gradient(to top, rgba(255, 255, 255, 1), rgba(2, 209, 255, 0)20%),
+    url('dora2.png'); */
+    height: fit-content;
+    width: 100vw;
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.t2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 43vw;
+    height: fit-content;
+    font-size: 2vw;
+    color: #5c5c5c;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 5vw;
+    line-height: -10px;
+    margin-top: 15vw;
+}
+.tab1{
+    width: 83vw;
+    height: auto;
+    margin-top: -41vw;
+    margin-left: 17vw;
+    margin-bottom: -24vw;
+}
+.box4{
+    /* background-image: 
+    linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(0, 128, 255, 0)20%),
+    linear-gradient(to top, rgba(255, 255, 255, 1), rgba(2, 209, 255, 0)20%),
+    url('dora2.png'); */
+    height: 80vw;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.mac2{
+    width: 88vw;
+    height: auto;
+    margin-bottom: -30vw;
+}
+.t3{
+    margin-top: -24vw;
+    margin-left: 55vw;
+}
+.text{
+    margin-top: -4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70vw;
+    padding: 20px 10px 20px 10px;
+    border: 3.5px solid #b7b7b7;
+    background-image: linear-gradient(#82b8d7, #c3dbea);
+    height: fit-content;
+    border-radius: 15px;
+    font-size: 1.8vw;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: -10px;
+    align-self: center;
+    position: relative;
+    left: 15vw;
+    margin-bottom: 4vw;
+}
+.box5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-bottom: 2vw;
+    animation: opacityTransition ease-in 1s ;
+}
+.frame{
+    margin-top: 10vw;
+    width: 80vw;
+    animation: opacityTransition ease-in 1s ;
+}
+
+.box6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-top: -2vw;
+    margin-bottom: 4vw;
+    /* background-image: 
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(0, 128, 255, 0)30%),
+    linear-gradient(to top, rgba(255, 255, 255, 0.5), rgba(2, 209, 255, 0)30%),
+    url('dora2.png'); */
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: opacityTransition ease-in 1s ;
+}
+.mb-frame{
+    width: 80vw;
+}
+.box7{
+    margin-top: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-bottom: 5vw;
+}
+.hex-code{
+    width: 80vw;
+}
+.box8{
+    margin-top: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-bottom: 0vw;
+    /* background-image: 
+    linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(0, 128, 255, 0)5%),
+    linear-gradient(to top, rgba(255, 255, 255, 1), rgba(2, 209, 255, 0)5%),
+    url('dora2.png');
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+.veiw{
+    width: 96vw;
+    animation: moveanimate ease-in 1s ;
+}
+.box9{
+    margin-top: -4vw;
+    display: flex;
+    margin-bottom: 3vw;
+    margin-left: 1.7vw;
+    /* background-image: 
+    linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(0, 128, 255, 0)5%),
+    linear-gradient(to top, rgba(255, 255, 255, 1), rgba(2, 209, 255, 0)5%),
+    url('dora2.png');
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+.ipad1{
+    width: 60vw;
+    height: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    margin-top: 30vw;
+    margin-left: -4vw;
+    transform: rotate(-90deg);
+    animation: opacityTransition ease-in 2s ;
+}
+.ipad2{
+    width: 75vw;
+    height: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    margin-top: 14vw;
+    margin-left: -47vw;
+    animation: movetransition ease-in 2s ;
+}
+@keyframes movetransition {
+    0%{
+        transform: translateX(100%);
+        z-index: -1;
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0%);
+        z-index: -1;
+        opacity: 1;
+    }
+}
+.laptop-twice{
+    width: 100vw;
+    height: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vw;
+    margin-left: -30vw;
+    z-index: 1;
+    animation: opacityTransition ease-in 2s ;
+}
+.iphone{
+    width: 80vw;
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26vw;
+    margin-left: -68vw;
+    z-index: 2;
+    animation: moveanimate ease-in 1s ;
+}
+@keyframes moveanimate {
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    
+}
+.box10{
+    display: flex;
+    /* background-image: 
+    linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(0, 128, 255, 0)25%),
+    linear-gradient(to top, rgba(255, 255, 255, 1), rgba(2, 209, 255, 0)25%),
+    url('dora2.png');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    justify-content: center;
+    align-items: center;
+    height: 60vw;
+    margin-top: 5vw;
+}
+.logo-last{
+    width: 40vw;
+    margin-left: 2.5vw;
+    animation: opacityTransition ease-in 1s ;
+}

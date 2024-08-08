@@ -1,0 +1,10 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(/Pictures/Background_1.png);
+}
+
+.logo img{
+    width: 100px;
+    height: 400px;
+}

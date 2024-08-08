@@ -1,0 +1,47 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(/Pictures/Background_1.png);
+    background-size: cover;
+}
+.row1{
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo img{
+    width: 100px;
+    height: 400px;
+    margin-top: 80px;
+
+}
+.macbook_container{
+    background-image: url(/Pictures/macbg.png);
+    height: 400px;
+    border-radius: 20px;
+    margin-top: 40px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.macbook_container img{
+    width: 700px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+/* -----ROW 1 End------- */
+
+.row2{
+    display: flex;
+    border: 2px solid red;
+    justify-content: space-around;
+    align-items: center;
+}
+.para1{
+    background-image: url(/Pictures/Para_1.png);
+    height: 400px;
+    border-radius: 20px;
+    margin-top: 40px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+}

@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=PT+Sans+Narrow:wght@400;700&display=swap');
+body{
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+}
+
+/* PORTFOLIO PART STARTING */
+.portfolio{
+    position: relative;
+    left: 8vw;
+    width: 80vw;
+    margin-top: 0vw;
+    overflow: hidden;
+}
+.h-port{
+    display: flex;
+    justify-content: center;
+    font-size: 17.3vw;
+    font-family: "Oswald", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: -13px;
+    
+}
+.tag{
+    position: relative;
+    font-family: 'Oswald', Verdana, sans-serif;
+    font-weight: 800;
+    background-color: black ;
+    border-radius: 10px;
+    color: #cd9e21;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    width: fit-content;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    letter-spacing: -2px;
+}
+.tag-xavier{
+    transform: rotate(20deg);
+    font-size: 3vw;
+    left: 18.1vw;
+    top: -10vw;
+}
+.tag-discover{
+    transform: rotate(-15deg);
+    font-size: 3vw;
+    left: 31vw;
+    top: -26.5vw;
+    font-weight: 700;
+}
+.tag-vega{
+    transform: rotate(-10deg);
+    font-size: 3vw;
+    left: 44vw;
+    top: -18vw;
+}
+.text{
+    text-transform: capitalize;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+    font-size: 15px;
+    font-family: sans-serif, Arial, Helvetica;
+    position: relative;
+    word-spacing: 1px;
+    left: 22vw;
+    top: -10vw;
+    height: 15vw;
+}
+.bn5 {
+    padding: 1.2vw 2.4vw;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    left: 37vw;
+    top: -17.5vw;
+  }
+  
+  .bn5:before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowingbn5 20s linear infinite;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  @keyframes glowingbn5 {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  .bn5:active {
+    color: #000;
+  }
+  
+  .bn5:active:after {
+    background: transparent;
+  }
+  
+  .bn5:hover:before {
+    opacity: 1;
+  }
+  
+  .bn5:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #191919;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+  .hr{
+    position: relative;
+    top: -12vw;
+    width: 90vw;
+    right: 4vw;
+  }
+.card{
+    padding-left: 30px;
+    align-items: center;
+    text-align: left;
+    background-color: #CF0D06;
+    height: 250px;
+    /* height: 450px; */
+    /* width: 320px; */
+    width: 190px;
+    border-radius: 20px;
+    position: absolute;
+    right: 140px;
+    top: 30px;
+    transform: rotate(25deg);
+    /* position: relative;
+    left: 32.3vw;
+    top: -3vw; */
+    overflow: hidden;
+    z-index: 99;
+}
+.dot{
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    position: relative;
+    top: 0.7vw;
+    left: -1.4vw;
+}
+.card-title{
+    color: white;
+    font-size: 70%;
+    font-weight: bold;
+    position: relative;
+    top: -0.5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.inner-para{
+    color: white;
+    font-size: 40%;
+    padding-right: 10%;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 7%;
+    width: 88%;
+    /* text-align: justify; */
+}
+.last-para{
+    color: gold;
+    font-size: 200%;
+    font-weight: 700;
+    letter-spacing: -2px;
+    font-family: "Oswald",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 13%;
+}
+.para2{
+    top: 8%;
+}
+.text2{
+    text-transform: capitalize;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 45vw;
+    font-size: 25px;
+    font-family: sans-serif, Arial, Helvetica;
+    position: relative;
+    word-spacing: 1px;
+    left: 17.6vw;
+    top: 5vw;
+    font-weight: 700;
+    padding-bottom: 10vw;
+    margin-top: 30vh;
+}
+/*  PORTFOLIO ENDS*/
+
+
+/*  ABOUT PART 1 STARTS */
+
+.h-about{  
+    margin-top: 15vh;
+    position: relative;
+    top: 1vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.wos{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 8vw;
+    font-family: "Oswald", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: -5px;
+}
+.aboutText{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 1px;
+    width: 30vw;
+    position: relative;
+    left: 36vw;
+    top: 2vw;
+    font-size: 17px;
+    color: rgb(18, 18, 18);
+    margin-bottom: 5vw;
+}
+.ab-hr{
+    width: 90vw;
+}
+.shuffle-cards{
+    height: 200vh;
+    width: 90vw;
+    position: relative;
+    left: 5vw;
+    overflow: hidden;
+    padding-top: 10vh;
+}
+.boxes{
+    width: 320px;
+    height: 420px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    position: relative;
+    padding-left: 30px;
+    box-shadow: rgba(0, 0, 0, 0.223) 3px 6px 3px 0px ;
+}
+.dots{
+    position: relative;
+    top: 26px;
+    
+}
+.titles{
+    font-size: 20px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    left: 0px;
+    position: relative;
+    top: 14px;
+}
+.coma-start{
+    font-size: 50px;
+    color: #000;
+    position: relative;
+    right: 120px;
+    top: 100px;
+}
+.comma1{
+    right: 160px;
+}
+.para-boxes{
+    font-size: 15px;
+    color: #000;
+    position: relative;
+    text-indent: 35px;
+    top: 75px;
+    color: rgb(48, 48, 48);
+}
+.coma-end{
+    font-size: 50px;
+    color: #000;
+    position: relative;
+    top: 65px;
+    left: 240px;
+}
+.names{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: "Oswald" , 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 120px;
+    letter-spacing: -2px;
+    
+}
+.name-1{
+    top: 150px;
+}
+.box1{
+    position: relative;
+    transform: rotate(-5deg);
+    left: 10vw;
+}
+.box2{
+    position: relative;
+    transform: rotate(-2deg);
+    left: 31vw;
+    top: -30vw;
+}
+.box3{
+    position: relative;
+    transform: rotate(10deg);
+    left: 53vw;
+    top: -55vw;
+}
+.box4{
+    position: relative;
+    transform: rotate(-12deg);
+    left: 25vw;
+    top: -50vh;
+}
+.box5{
+    position: relative;
+    transform: rotate(5deg);
+    z-index: 1;
+    left: 35vw;
+    top: -150vh;
+}
+.comma5{
+    right: 70px;
+}
+.box6{
+    position: relative;
+    transform: rotate(-10deg);
+    left: 57vw;
+    top: -200vh;
+    height: 450px;
+}
+.box7{
+    position: relative;
+    transform: rotate(2deg);
+    left: 13vw;
+    top: -250vh;
+    height: 450px;
+}
+.box8{
+    position: relative;
+    transform: rotate(10deg);
+    left: 50vw;
+    top: -260vh;
+    margin-bottom: -1600px;
+}
+/* ABOUT PART 1 ENDS */
+
+/* ABOUT PART 2 STARTS */
+.about-p2{
+    display: none;
+    background-color: #000;
+    margin-top: -500px;
+    margin-left: -10px;
+    width: 105vw;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    margin-bottom: -10px;
+}
+.dot1{
+    top: 20px;
+    color: #000;
+}
+.titles1{
+    left: -10px;
+    top: 20px;
+}
+.box9{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    left: 66vw;
+    transform: rotate(10deg);
+    z-index: 1;
+    width: 300px;
+    height: 420px;
+}
+.box10{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    top: 32vw;
+    transform: rotate(-10deg);
+    z-index: 1;
+    width: 320px;
+    left: 12vw;
+    height: 460px;
+}
+.name2{
+    color: #000;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: "Oswald" , 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 70px;
+    left: 10px;
+    letter-spacing: -2px;
+}
+.name3{
+    left: -10px;
+    top: 100px;
+}
+.coma{
+    right: 85px;
+}
+.text-end{
+    font-size: 100px;
+    color: #ffffff;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 55vw;
+    font-family: "Oswald", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    letter-spacing: -2px;
+    position: relative;
+    left: 22vw;
+    top: -10vw;
+    padding-bottom: 15vw;
+}
+.last1{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 3.5vw;
+    top: 1.8vw;
+}
+.lastmsg{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 35vw;
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 3vw;
+    left: 31.5vw;
+    padding-bottom: 6vw;
+}
+.comma{
+    left: 200px;
+    top: 50px;
+}
+.name{
+    top: 85px;
+}

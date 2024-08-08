@@ -1,0 +1,19 @@
+.row1{
+    background-color: darkcyan;
+}
+.row1 ul{
+    display: flex;
+    
+}
+.row1 ul li{
+    list-style: none;
+
+}
+.row1 ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+.row1 ul li img{
+    width: 30px;
+}

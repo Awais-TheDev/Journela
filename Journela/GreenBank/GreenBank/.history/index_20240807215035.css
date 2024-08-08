@@ -1,0 +1,29 @@
+
+.row2{
+    margin-top: 40px;
+}
+.row2 ul{
+    display: flex;
+    justify-content: space-between;
+}
+.row2 ul li{
+    list-style: none;
+    text-decoration: none;
+    color: gray;
+}
+.row2 ul li a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    color: blue;
+}
+#u{
+    background-color: red;
+    color: white;
+    width: 80px;
+    text-align: center;
+    padding: 5px;
+    font-size: large;
+    border-radius: 10px;
+    margin-right: 10px;
+}

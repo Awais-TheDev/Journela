@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: darkgrey;
+}
+
+.hero_heading{
+    text-align: center;
+    color: white;
+    font-family: Roboto;
+    font-size: 5.5vw;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.hero_img{
+    width: 80%;
+    margin: 0 10%;
+}
+.text1{
+    margin-top: 12vh;
+    text-align: center;
+    color: white;
+    font-family: Roboto;
+    font-size: 4vw;
+    font-weight: bold;
+}
+.iphone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+}
+.iphone img{
+    width: 80%;
+}
+.text2{
+    color: white;
+    font-family: Roboto;
+    font-size: 1.8vw;
+    width: 50%;
+    padding: 20px;
+    
+}

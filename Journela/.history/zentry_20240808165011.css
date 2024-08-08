@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: darkgrey;
+}
+
+.hero_heading{
+    text-align: center;
+    color: white;
+    font-family: Roboto;
+    font-size: 5.5vw;
+    font-weight: bold;
+}
+.hero_img{
+    width: 80%;
+    margin: 0 10%;
+    ma
+}
