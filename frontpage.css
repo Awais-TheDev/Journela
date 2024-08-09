@@ -1,5 +1,12 @@
+@font-face {
+    font-family: Mundial;
+    src: url(mundial/MundialRegular.otf);
+  }
+
+
 :root{
     --MainFont: "Fira Sans", sans-serif;
+    --Mundial: "Mundial", sans-serif;
 }
 
 
@@ -12,8 +19,13 @@
     text-transform: uppercase;
     font-family: var(--MainFont);
     /* overflow-x: hidden; */
+    /* font-family: Mundial !important; */
     
 
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 
@@ -90,7 +102,8 @@ h1,h2,h3{
     align-items: center;
 }
 .section1 h2, .brandStoryandTextContainer h2{
-    font-size: 8vw;
+    font-family: var(--Mundial) !important;
+    font-size: 7vw;
     width: 80vw;
 }
 .brandStoryandTextContainer{
@@ -116,6 +129,7 @@ h1,h2,h3{
 
 
 .section1 h3{
+    font-family: var(--Mundial) !important;
     font-size: 3vw;
     width: 40vw;
 }
@@ -162,6 +176,8 @@ h1,h2,h3{
     border-radius: 3px 3px 0 0;
     letter-spacing: 3px;
     font-size: 1.8vh;
+    cursor: pointer;
+    font-family: var(--Mundial) !important;
 }
 /* .fixedButton:hover{
     height: 8vh;
@@ -192,30 +208,44 @@ h1,h2,h3{
   }
 
   .section3{
-    height: 30vh;
+    min-height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    padding: 20px 50px 50px 100px;
+    padding: 6vw 6vw;
+    /* border: 1px solid red; */
+    margin-top: -4vw;
+    
   }
   .section3 h3{
-    font-size: 50px;
-    text-transform: capitalize;
+    font-size: 1.6vw;
+    text-transform:none;
+    font-weight: 600;
+    padding-left: 0.1vw;
+    font-family: var(--Mundial) !important;
   }
   .typingTextContainer{
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .typingTextContainer span{
-    font-size: 50px;
+  .typing-text{
+    font-size: 1.8vw;
     text-transform: capitalize;
+    color: #CF0D06;
+    font-weight: 600;
+    font-family: var(--Mundial) !important;
+    /* padding-left: 0.7vw; */
+    
 
   }
   .typingTextContainer span h2{
-    font-size: 50px;
-    text-transform: capitalize;
+    font-size: 1.6vw;
+    text-transform: none;
+    font-weight: 600;
+    font-family: var(--Mundial) !important;
+
 
   }
 
@@ -258,7 +288,7 @@ h1,h2,h3{
     80.9070%, 94.5814% { content: "St"; }
     82.0465%, 93.4419% { content: "Stra"; }
     83.1860%, 92.3023% { content: "Strate"; }
-    84.3256%, 91.1628% { content: "Strategist"; }
+    84.3256%, 91.1628% { content: "Strategists"; }
   }
   
   @keyframes blink {
@@ -314,6 +344,56 @@ h1,h2,h3{
 
 
 
+  /* clients */
+
+  .Clients{
+    min-height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0 6.5vw; */
+    margin-top: -1vw;
+    /* border: 1px solid red; */
+    
+  }
+  .Clients img{
+    width: auto;
+    height: 2.3vw;
+  }
+
+  .client1{
+    width: auto;
+    height: 3.1vw !important;
+  }
+  .client2{
+    width: auto;
+    height: 2.8vw !important;
+  }
+  .client3{
+    width: auto;
+    height: 1.9vw !important;
+  }
+  .client4{
+    width: auto;
+    height: 2vw !important;
+  }
+  .client5{
+    width: auto;
+    height: 4.5vw !important;
+  }
+  .client6{
+    width: auto;
+    height: 4.3vw !important;
+  }
+
+
+  /* clients */
+
+
+
+
+
 
 
 /* Portfolio */
@@ -322,6 +402,7 @@ h1,h2,h3{
     justify-content: start;
     background: #000;
     overflow-x: hidden;
+    
 }
 
 .PortfolioContainer{
@@ -356,9 +437,11 @@ h1,h2,h3{
     font-weight: 600 !important;
     text-transform: uppercase !important;
     color: #fff !important;
+    font-family: var(--Mundial) !important;
 }
 .PortfolioLeft > p{
     font-size: 1vw;
+    font-family: var(--Mundial) !important;
 }
 
 .PortfolioRight{
@@ -408,6 +491,7 @@ h1,h2,h3{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: var(--Mundial) !important;
     text-decoration: none;
 }
 .ViewProjectButton:hover{
@@ -441,9 +525,13 @@ h1,h2,h3{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: var(--Mundial) !important;
 }
 
 
+.text2{
+    font-family: var(--Mundial) !important;
+}
 
 /* Portfolio */
 
@@ -459,11 +547,18 @@ h1,h2,h3{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 0 60px; */
+    padding: 0 4.8vw;
 }
 .row1{
     width: 100vw;
     padding: 20px;
+    
+}
+.footer-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5vw;
 }
 .row1 ul{
     /* display: flex; */
@@ -471,16 +566,20 @@ h1,h2,h3{
     justify-content: space-between;
     align-items: center;
     /* justify-content: space-between; */
+    
 }
 .row1 ul li{
     list-style: none;
     margin-right: 10px;
+    
 
 }
 .row1 ul li a{
     text-decoration: none;
     color: white;
-    font-size: 1vw;
+    font-size: 0.9vw;
+    font-family: var(--Mundial) !important;
+    
 
 }
 .row1 ul li img{
@@ -493,6 +592,36 @@ h1,h2,h3{
     align-items: center;
     width: 50%;
 }
+.logo:hover{
+    transform: translate(0px) !important;
+}
 .logo li{
-    padding-right: 10px;
+    height: 2.5vw;
+    width: 2.5vw;
+    border-radius: 50%;
+    border: 1px solid #ffffff88;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.logo li img{
+    /* padding-right: 10px;   */
+    
+    /* border: 1px solid yellow; */
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.footer-icon1{
+    width: 1vw !important;
+    height: 2.1vw !important;
+}
+.footer-icon2{
+    width: 0.5vw !important;
+    height: 2.1vw !important;
+}
+.footer-icon3{
+    width: 1.2vw !important;
+    height: 2.1vw !important;
 }

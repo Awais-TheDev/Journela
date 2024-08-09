@@ -44,6 +44,7 @@
     font-size: 1vw;
     letter-spacing: 2px;
     margin-top: 1.5vw;
+    transition: all ease-in-out 1s;
   }
   .nav-btn {
     display: flex;

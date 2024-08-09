@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=PT+Sans+Narrow:wght@400;700&display=swap');
+@font-face {
+    font-family: Mundial;
+    src: url(mundial/MundialRegular.otf);
+  }
+
+
+:root{
+    --MainFont: "Fira Sans", sans-serif;
+    --Mundial: "Mundial", sans-serif;
+}
 body{
     background-color: #f4f4f4;
     overflow-x: hidden;
@@ -235,22 +245,25 @@ body{
 /*  ABOUT PART 1 STARTS */
 
 .h-about{  
-    margin-top: 15vh;
+    /* margin-top: 15vh; */
     position: relative;
     top: 1vw;
     align-items: center;
     display: flex;
     justify-content: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: var(--Mundial) !important;
     font-size: 20px;
+    margin: 15vh 0 2vw 0;
 }
 .wos{
     align-items: center;
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 8vw;
-    font-family: "Oswald", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 7vw;
+    /* font-family: "Oswald", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: var(--Mundial) !important;
     font-weight: 600;
     letter-spacing: -5px;
 }
@@ -260,13 +273,14 @@ body{
     justify-content: center;
     align-items: center;
     word-spacing: 1px;
-    width: 30vw;
+    width: 50vw;
     position: relative;
-    left: 36vw;
-    top: 2vw;
+    left: 50%;
+    transform: translateX(-50%);
     font-size: 17px;
     color: rgb(18, 18, 18);
-    margin-bottom: 5vw;
+    margin: 1vw 0 5vw 0;
+    font-family: var(--Mundial) !important;
 }
 .ab-hr{
     width: 90vw;
@@ -298,11 +312,13 @@ body{
 .titles{
     font-size: 1.3vw;
     color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: var(--Mundial) !important;
     font-weight: 500;
     left: 0px;
     position: relative;
     top: 1vw;
+
 }
 .coma-start{
     font-size: 3vw;
@@ -321,6 +337,7 @@ body{
     text-indent: 35px;
     top: 5.5vw;
     color: rgb(48, 48, 48);
+    font-family: var(--Mundial) !important;
 }
 .coma-end{
     font-size: 3vw;
