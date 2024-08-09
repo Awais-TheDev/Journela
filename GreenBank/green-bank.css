@@ -287,15 +287,15 @@ body {
 }
 
 .laptop_img1 img{
-    width: 1040px;
+    width: 40vw;
     margin: 0;
-    transform: translate(370px, -100px);
+    transform: translate(-0vw, -5vw);
 }
 .laptop_img2 img{
-    width: 1040px;
+    width: 40vw;
     margin-top: 150px !important;
     margin: 0;
-    transform: translate(-370px, 50px);
+    transform: translate(-5vw, 5vw);
 }
 
 .logo2 img {
