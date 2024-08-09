@@ -230,7 +230,8 @@ body{
     justify-content: center;
     width: 65vw;
     font-size: 1.7vw;
-    font-family: sans-serif, Arial, Helvetica;
+    /* font-family: sans-serif, Arial, Helvetica; */
+    font-family: var(--Mundial) !important;
     position: relative;
     word-spacing: 1px;
     left: 50%;
@@ -238,6 +239,7 @@ body{
     font-weight: 700;
     padding-bottom: 10vw;
     margin-top: 30vh;
+    margin-left: 2vw;
 }
 /*  PORTFOLIO ENDS*/
 
