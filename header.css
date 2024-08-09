@@ -32,10 +32,10 @@
     cursor: pointer;
     /* border: 1px solid red; */
 }
-.logo:hover{
+/* .logo:hover{
   transition: 0.3s ease-in-out;
-  transform: translateY(-0.5vw);
-}
+  transform: translateY(-0.5vw) !important;
+} */
 
 .con-btn {
     display: flex;
