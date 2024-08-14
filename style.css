@@ -46,9 +46,29 @@ body{
     border-right: 10px solid black;
     letter-spacing: -2px;
 }
+.tagTestimonials{
+    position: absolute;
+    font-family: 'Oswald', Verdana, sans-serif;
+    font-weight: 800;
+    background-color: black ;
+    border-radius: 10px;
+    color: #cd9e21;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    width: fit-content;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    letter-spacing: -2px;
+    transform: rotate(0deg) !important;
+    top: -10% !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+
+}
 .tag-xavier{
     transform: rotate(20deg);
-    font-size: 3vw;
+    font-size: 2.5vw;
     left: 18.1vw;
     top: -10vw;
 }
@@ -266,7 +286,7 @@ body{
     font-size: 7vw;
     /* font-family: "Oswald", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     font-family: var(--Mundial) !important;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: -5px;
 }
 .aboutText{
@@ -283,12 +303,13 @@ body{
     color: rgb(18, 18, 18);
     margin: 1vw 0 5vw 0;
     font-family: var(--Mundial) !important;
+    text-transform: lowercase !important;
 }
 .ab-hr{
     width: 90vw;
 }
 .shuffle-cards{
-    height: 105vw;
+    height: 98vw;
     width: 90vw;
     position: relative;
     left: 5vw;
@@ -298,7 +319,7 @@ body{
 }
 .boxes{
     width: 22vw;
-    height: 28vw;
+    height: 19vw;
     background-color: #ffffff;
     border-radius: 10px;
     padding: 15px;
@@ -308,7 +329,7 @@ body{
 }
 .dots{
     position: relative;
-    top: 26px;
+    bottom: -4vw;
     
 }
 .titles{
@@ -319,15 +340,15 @@ body{
     font-weight: 500;
     left: 0px;
     position: relative;
-    top: 1vw;
+    bottom: -3vw;
 
 }
 .coma-start{
     font-size: 3vw;
     color: #000;
     position: relative;
-    right: 8.4vw;
-    top: 7vw;
+    left: 0vw;
+    top: 3vw;
 }
 .comma1{
     right: 160px;
@@ -337,16 +358,17 @@ body{
     color: #000;
     position: relative;
     text-indent: 35px;
-    top: 5.5vw;
+    bottom: -1.7vw;
     color: rgb(48, 48, 48);
     font-family: var(--Mundial) !important;
+    line-height: 17px;
 }
 .coma-end{
     font-size: 3vw;
     color: #000;
     position: relative;
-    top: 5vw;
-    left: 15vw;
+    top: 1.4vw;
+    right: -16vw;
 }
 .names{
     font-size: 2.6vw;
@@ -369,6 +391,8 @@ body{
     position: absolute;
     transform: rotate(-2deg);
     left: 31vw;
+    height: 20.6vw !important;
+
     /* top: -30vw; */
 }
 .box3{
@@ -382,6 +406,8 @@ body{
     transform: rotate(-12deg);
     left: 15vw;
     top: 25vw;
+    height: 19.5vw !important;
+
 }
 .box5{
     position: absolute;
@@ -398,20 +424,22 @@ body{
     transform: rotate(-10deg);
     left: 50vw;
     top: 30vw;
-    height: 31vw;
+    height: 23vw !important;
 }
 .box7{
     position: absolute;
     transform: rotate(2deg);
     left: 23vw;
     top: 65vw;
-    height: 32vw;
+    height: 24.5vw !important;
 }
 .box8{
     position: absolute;
     transform: rotate(10deg);
     left: 40vw;
     top: 48vw;
+    height: 20.5vw !important;
+
     /* margin-bottom: -1600px; */
 }
 /* ABOUT PART 1 ENDS */
