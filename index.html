@@ -48,6 +48,10 @@
             <h2>Dive&nbsp; into&nbsp; details</h2>
         </div>
         <button class="fixedButton">Get in Touch</button>
+        <!-- <span class=" BannerTag1 tag-xavier">AMPLIFYING</span>
+        <span class=" BannerTag2 tag-xavier">JOURNELA</span> -->
+
+
 
         <img src="images/Banner image.png" alt="" class="bannerImage">
 
@@ -104,10 +108,10 @@
 
 
      <!-- PORTFOLIO Section STARTING -->
-     <!-- <div class="portfolio" id="Portfolio">
+     <div class="portfolio" id="Portfolio">
         <h1 class="h-port">PORTFOLIO</h1>
-        <span class="tag tag-xavier">JOURNELA</span>
-        <span class="tag tag-discover">AMPLIFYING</span>
+        <!-- <span class="tag tag-xavier">JOURNELA</span>
+        <span class="tag tag-discover">AMPLIFYING</span> -->
         <div class="card">
             <p class="dot"><img src="dot white.png" alt="white dot"></p>
             <div class="card-title">WHO IS JOURNELA</div>
@@ -115,12 +119,12 @@
             <p class="last-para">JOURNELA</p>
             <p class="last-para para2">PORTFOLIO</p>
         </div>
-        <span class="tag tag-vega">VOiCES</span>
+        <!-- <span class="tag tag-vega">VOiCES</span> -->
         <span class="text">THIS PORTFOLIO REFLECTS JOURNELA'S COMMITMENT TO EXCEPTIONAL DESIGN. EACH WEBSITE SHOWCASES OUR DEDICATION TO PRECISION AND METICULOUS DEVELOPMENT, RESULTING FROM COUNTLESS HOURS OF REFINEMENT.</span>
         <a href="#" class="bn5">NAVIGATE</a><hr class="hr">
         
-        <span class="text2">WHERE EVERY PIXEL SPEAKS AND PRECISION DRIVES IMPACT. JOURNELA IS YOUR DIGITAL HAVEN, BLENDING METICULOUS DESIGN WITH POWERFUL STORYTELLING TO CREATE BRANDS THAT RESONATE IN A MINIMALIST, YET PROFOUND WAY.</span>
-    </div> -->
+        <!-- <span class="text2">WHERE EVERY PIXEL SPEAKS AND PRECISION DRIVES IMPACT. JOURNELA IS YOUR DIGITAL HAVEN, BLENDING METICULOUS DESIGN WITH POWERFUL STORYTELLING TO CREATE BRANDS THAT RESONATE IN A MINIMALIST, YET PROFOUND WAY.</span> -->
+    </div>
     <!-- PORTFOLIO Section ENDS -->
 
 
@@ -130,17 +134,64 @@
 
 
    <section class="PortfolioSection">
-  <h1 class="h-about">WORKS</h1>
-  <h1 class="wos">PORTFOLIO</h1>
+
+    <!-- <div class="card">
+      <p class="dot"><img src="dot white.png" alt="white dot"></p>
+      <div class="card-title">WHO IS JOURNELA</div>
+      <p class="inner-para">DISCOVER JOURNELA—WE CREATE IMPACTFUL BRAND IDENTITIES, EXECUTE STRATEGIC MARKETING CAMPAIGNS, AND DRIVE DIGITAL SUCCESS TO TRANSFORM YOUR BUSINESS AND YOUR ONLINE PRESENCE.</p>
+      <p class="last-para">JOURNELA</p>
+      <p class="last-para para2">PORTFOLIO</p>
+    </div> -->
+
+  <!-- <h1 class="h-about">WORKS</h1>
+  <h1 class="wos">PORTFOLIO</h1> -->
   <span class="PortfolioDescription">
     DISCOVER JOURNELA—WE CREATE IMPACTFUL BRAND IDENTITIES, EXECUTE STRATEGIC MARKETING CAMPAIGNS, AND DRIVE DIGITAL SUCCESS TO TRANSFORM YOUR BUSINESS AND YOUR ONLINE PRESENCE.
   </span>
   <div class="Portfolio-Container">
-    <div class="Portfolio-2 PortfolioCard1" id="PortfolioScroll-1"></div>
-    <div class="Portfolio-2 PortfolioCard2" id="PortfolioScroll-2"></div>
-    <div class="Portfolio-2 PortfolioCard3" id="PortfolioScroll-3"></div>
-    <div class="Portfolio-2 PortfolioCard4" id="PortfolioScroll-4"></div>
-    <div class="Portfolio-2 PortfolioCard5" id="PortfolioScroll-5"></div>
+    <a href="/DEST Code/DEST PROJECT/dest-code.html" class="Portfolio-2 PortfolioCard1" id="PortfolioScroll-1">
+      <button class="PortfolioButton2">DEST</button>
+      <div class="PortfolioText">Elevating Transportation <br>with Smart Mobility Solutions.</div>
+
+              <button class="PortfolioButton">View Case Study</button>
+              
+              
+
+    </a>
+  <div class="Portfolio-Container">
+    <a href="./GreenBank.html" class="Portfolio-2 PortfolioCard6" id="PortfolioScroll-1">
+      <button class="PortfolioButton2">GreenBank</button>
+      <div class="PortfolioText">Elevating Banking <br>with Smart Card Solutions</div>
+
+              <button class="PortfolioButton">View Case Study</button>
+              
+              
+
+    </a>
+    <a href="./Amuser.html" class="Portfolio-2 PortfolioCard2" id="PortfolioScroll-2">
+      <button class="PortfolioButton2">The Amuser</button>
+      <div class="PortfolioText">Elevating Lifestyle with <br>Smart E-Commerce Solutions.</div>
+              <button class="PortfolioButton">View Case Study</button>
+
+    </a>
+    <a href="./Talent-App.html" class="Portfolio-2 PortfolioCard3" id="PortfolioScroll-3">
+      <button class="PortfolioButton2">Talent App</button>
+      <div class="PortfolioText">Elevating Sports with <br>Smart Talent Solutions.</div>
+              <button class="PortfolioButton">View Case Study</button>
+
+    </a>
+    <!-- <div class="Portfolio-2 PortfolioCard4" id="PortfolioScroll-4">
+      <button class="PortfolioButton2">Zentry</button>
+      <div class="PortfolioText">Elevating Banking <br>with Smart Card Solutions</div>
+              <button class="PortfolioButton">View Case Study</button>
+
+    </div> -->
+    <a href="./Zentry.html" class="Portfolio-2 PortfolioCard5" id="PortfolioScroll-5">
+      <button class="PortfolioButton2">Zentry</button>
+      <div class="PortfolioText">Elevating Gaming <br>Adventures with Innovative Experiences.</div>
+              <button class="PortfolioButton">View Case Study</button>
+
+    </a>
   </div>
 </section>
 
@@ -355,6 +406,49 @@
 
 
 
+<!-- 
+        var tl = gsap.timeline({
+          scrollTrigger: {
+            trigger: ".PortfolioSection",
+            start: "27% top", 
+            end: "bottom top", 
+            scrub: 1,
+            pin: true
+          }
+        });
+        
+        tl.from("#PortfolioScroll-1", {
+          x: "110%",
+          opacity:0,
+          
+        });
+        
+        tl.from("#PortfolioScroll-2", {
+          y: "110%",
+          
+          ease: "power2.ease",
+          width:"200vw"
+        
+        }, "+=0.5"); 
+        
+        tl.from("#PortfolioScroll-3", {
+          x: "110%",
+          opacity:0,
+          ease: "power2.ease"
+        }, "+=0.5"); 
+        tl.from("#PortfolioScroll-4", {
+          x: "110%",
+          opacity:0,
+          ease: "power2.ease"
+        }, "+=0.5"); 
+        tl.from("#PortfolioScroll-5", {
+          x: "110%",
+          opacity:0,
+          ease: "power2.ease"
+        }, "+=0.5"); 
+         -->
+
+
 
 
 
@@ -368,45 +462,6 @@
 
 // 2.0
 
-var tl = gsap.timeline({
-  scrollTrigger: {
-    trigger: ".PortfolioSection",
-    start: "27% top", 
-    end: "bottom top", 
-    scrub: 1,
-    pin: true
-  }
-});
-
-tl.from("#PortfolioScroll-1", {
-  x: "110%",
-  opacity:0,
-  // ease: "power2.ease"
-});
-
-tl.from("#PortfolioScroll-2", {
-  y: "110%",
-  // opacity:0,
-  ease: "power2.ease",
-  width:"200vw"
-  // rotate:20
-}, "+=0.5"); // offset by 0.5 seconds
-
-tl.from("#PortfolioScroll-3", {
-  x: "110%",
-  opacity:0,
-  ease: "power2.ease"
-}, "+=0.5"); // offset by 1 second
-tl.from("#PortfolioScroll-4", {
-  x: "110%",
-  opacity:0,
-  ease: "power2.ease"
-}, "+=0.5"); // offset by 1 second
-tl.from("#PortfolioScroll-5", {
-  x: "110%",
-  opacity:0,
-  ease: "power2.ease"
-}, "+=0.5"); // offset by 1 second
 
 
 // 2.0
@@ -446,11 +501,11 @@ tl.from("#PortfolioScroll-5", {
       scrollTrigger: {
         trigger: ".portfolio",
         start: "top center", // When the top of the trigger element hits the top of the viewport
-        end: "bottom center", // When the bottom of the trigger element hits the top of the viewport
+        end: "50% center", // When the bottom of the trigger element hits the top of the viewport
         scrub: 1, // Adjust the scrub time for smoother syncing
       },
-      y:"67vh",
-      x:"-17.5vw", // Change this value to adjust how much the video expands
+      y:"35vh",
+      x:"32vw", // Change this value to adjust how much the video expands
       width:320,
       height:450,
       ease: "power2.ease", // Smooth easing
