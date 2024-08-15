@@ -72,9 +72,9 @@ html{
     .maintenace {
         /* display: block; */
       background: url(maintenance.jpg);
-      background-size: cover;
-      height: 100vh;
-      width: 100vw;
+      background-size: cover !important;
+      height: 100vh !important;
+      width: 100vw !important;
       /* z-index: ; */
       /* position: absolute; */
       display: flex;
