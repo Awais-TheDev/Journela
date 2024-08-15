@@ -13,7 +13,7 @@
 body{
     overflow-x: hidden;
     font-family: var(--Mundial);
-    background-color: #000;
+    background-color: #000 !important;
 }
 
 ::-webkit-scrollbar {
@@ -29,8 +29,10 @@ body{
 
 
 .amuser{
-    background-repeat: no-repeat;
     width: 100vw;
+    min-height: 100vh;
+    /* background-repeat: no-repeat; */
+    overflow-x: hidden;
 }
 
 
@@ -118,12 +120,13 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     /* background-image: url('bg.jpg') !important; */
-    background-color: #f4f4f4ef;
     opacity: 1;
     backdrop-filter: blur(30px);
-    margin-left: -2vw;
-    padding: 5vw 0;
+    /* margin-left: -2vw; */
+    /* padding: 5vw 0; */
     overflow-x: hidden;
+    padding: 0 !important;
+    background-color: #000 !important;
 }
 
 .hashtag{
