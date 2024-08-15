@@ -27,7 +27,9 @@ body{
     display: none;
 }
 
-
+.innerLogo{
+    width: 16vw !important;
+}
 
 
 
