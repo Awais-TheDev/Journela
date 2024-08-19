@@ -145,7 +145,7 @@ body{
   
   .bn5:before {
     content: "";
-    background: linear-gradient(
+    /* background: linear-gradient(
       45deg,
       #ff0000,
       #ff7300,
@@ -156,7 +156,8 @@ body{
       #7a00ff,
       #ff00c8,
       #ff0000
-    );
+    ); */
+    background-color: transparent;
     position: absolute;
     top: -2px;
     left: -2px;
@@ -213,15 +214,15 @@ body{
     right: 4vw;
   }
 .card{
-    padding-left: 30px;
-    align-items: center;
+    /* padding-left: 30px; */
+    /* align-items: center;
     text-align: left;
-    background-color: #CF0D06;
-    height: 250px;
+    background-color: #CF0D06; */
+    height: 19vw ;
     /* height: 450px; */
     /* width: 320px; */
-    width: 190px;
-    border-radius: 20px;
+    width: 20vw ; 
+    border-radius: 10px;
     position: absolute;
     right: 60vw;
     top: 30px;

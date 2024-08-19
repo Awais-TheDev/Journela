@@ -185,6 +185,7 @@ background-size: cover;
   /* background: linear-gradient(to top, rgba(0, 0, 0, 0.88), transparent), url(./iPhone-XS-isometric-standup-Mockup\ 1.png);  */
   background-position: center center;
   background-size: cover;
+  opacity: 1;
 }
 
 
@@ -1283,4 +1284,199 @@ h1,h2,h3{
 .footer-icon3{
     width: 1.2vw !important;
     height: 2.1vw !important;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.fotr{
+  background-color: black;
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4.8vw;
+  /* position: relative; */
+
+}
+.row1{
+  width: 100vw;
+  /* padding: 20px; */
+  
+}
+.footer-left{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.5vw;
+}
+.row1 ul{
+  /* display: flex; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* justify-content: space-between; */
+  /* border: 1px solid red; */
+  height: 6vh !important;
+  
+}
+.row1 ul li{
+  list-style: none;
+  margin-right: 10px;
+  
+
+}
+.row1 ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 0.9vw;
+  font-family: var(--Mundial) !important;
+  
+
+}
+.row1 ul li img{
+  width: 25px;
+}
+
+.logo{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 50%;
+}
+.logo:hover{
+  transform: translate(0px) !important;
+}
+.logo li{
+  height: 2.5vw;
+  width: 2.5vw;
+  border-radius: 50%;
+  border: 1px solid #ffffff88;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.logo li img{
+  /* padding-right: 10px;   */
+  
+  /* border: 1px solid yellow; */
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.footer-icon1{
+  width: 1vw !important;
+  height: 2.1vw !important;
+}
+.footer-icon2{
+  width: 0.5vw !important;
+  height: 2.1vw !important;
+}
+.footer-icon3{
+  width: 1.2vw !important;
+  height: 2.1vw !important;
+}
+.fotr-p1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.row0{
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  width: 100vw;
+  /* align-items: last baseline; */
+  border: 1px solid red !important;
+  height: 40vh;
+  /* background-image: linear-gradient(to top, #000 , transparent); */
+
+  
+
+}
+.footr-h{
+  font-size: 13vw;
+  text-wrap: nowrap;
+  height: fit-content;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100vw;
+  /* overflow: hidden; */
+  color: #fff !important;
+  text-overflow: visible;
+  border: 1px solid red !important;
+  margin-left: -1vw;
+  margin-bottom: -3vw;
+}
+.fotr-p{
+  font-weight: 100 !important;
+  overflow: hidden;
+  /* position:relative; */
+  /* bottom: -20vw; */
+  text-align: center; /* Optional: Center text */
+  animation: moveUp 5s ease-out;
+  animation-timeline: scroll();
+  animation-delay: 0s; /* Adjust delay if needed */
+  animation-fill-mode: forwards;
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(100vh); /* Start off-screen */
+  }
+  100% {
+    transform: translateY(0); /* End at the original position */
+  }
+}
+
+.buttonss{
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.contact-us-fotr{
+  width: 12vw;
+  height: 8vh;
+  border-radius: 3px;
+  background: #000;       /* Removes the background */
+border: none;           /* Removes the border */
+padding: 0;             /* Removes the default padding */
+margin: 0;              /* Removes the default margin */
+font: inherit;          /* Inherits the font from the parent element */
+cursor: pointer;  
+font-size: 1vw;
+font-weight: 500;
+color: #fff;
+font-family: var(--Mundial) !important;
+}
+.contact-us-fotr:hover{
+  background-color: transparent;
+  color: #000;
+  border: 1px solid #000;
+}
+.arrow-fotr{
+  width: 4vw;
+  height: 8vh;
+  border-radius: 30px;
+  background: white;       /* Removes the background */
+border: none;           /* Removes the border */
+padding: 0;             /* Removes the default padding */
+margin: 0;              /* Removes the default margin */
+font: inherit;          /* Inherits the font from the parent element */
+cursor: pointer;
+}
+.arrow-1{
+  transform: rotate(-45deg);
 }

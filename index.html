@@ -116,16 +116,19 @@
 
         <!-- <span class="tag tag-xavier">JOURNELA</span>
         <span class="tag tag-discover">AMPLIFYING</span> -->
-        <div class="card">
+
+        <img src="./WHO IS JOURNELA.png" alt="" class="card">
+
+        <!-- <div class="card">
             <p class="dot"><img src="dot white.png" alt="white dot"></p>
             <div class="card-title">WHO IS JOURNELA</div>
             <p class="inner-para">DISCOVER JOURNELA—WE CREATE IMPACTFUL BRAND IDENTITIES, EXECUTE STRATEGIC MARKETING CAMPAIGNS, AND DRIVE DIGITAL SUCCESS TO TRANSFORM YOUR BUSINESS AND YOUR ONLINE PRESENCE.</p>
             <p class="last-para">JOURNELA</p>
             <p class="last-para para2">PORTFOLIO</p>
-        </div>
+        </div> -->
         <!-- <span class="tag tag-vega">VOiCES</span> -->
-        <span class="text">DISCOVER JOURNELA—WE CREATE IMPACTFUL BRAND IDENTITIES, EXECUTE STRATEGIC MARKETING CAMPAIGNS, AND DRIVE DIGITAL SUCCESS TO TRANSFORM YOUR BUSINESS AND YOUR ONLINE PRESENCE.</span>
-        <a href="#" class="bn5">Explore</a><hr class="hr">
+        <!-- <span class="text">DISCOVER JOURNELA—WE CREATE IMPACTFUL BRAND IDENTITIES, EXECUTE STRATEGIC MARKETING CAMPAIGNS, AND DRIVE DIGITAL SUCCESS TO TRANSFORM YOUR BUSINESS AND YOUR ONLINE PRESENCE.</span> -->
+        <!-- <a href="#" class="bn5">Explore</a><hr class="hr"> -->
         
         <!-- <span class="text2">WHERE EVERY PIXEL SPEAKS AND PRECISION DRIVES IMPACT. JOURNELA IS YOUR DIGITAL HAVEN, BLENDING METICULOUS DESIGN WITH POWERFUL STORYTELLING TO CREATE BRANDS THAT RESONATE IN A MINIMALIST, YET PROFOUND WAY.</span> -->
     </div>
@@ -442,6 +445,21 @@
 
 
 
+<!-- 
+    <div class="fotr-p1">
+      <div class="row0">
+        <div class="footr-h"><p class="fotr-p">Let's Talk</p></div>
+        <div class="buttonss">
+          <button type="button" class="contact-us-fotr">Start a Project</button>
+          <button type="button" class="arrow-fotr"><img src="arrow-right (2).png" alt="arrow" class="arrow-1"></button>
+        </div>
+      </div>
+     </div> -->
+
+
+
+
+
 
 
 
@@ -571,18 +589,120 @@
     gsap.to(".card", {
       scrollTrigger: {
         trigger: ".portfolio",
-        start: "top center", // When the top of the trigger element hits the top of the viewport
-        end: "100% center", // When the bottom of the trigger element hits the top of the viewport
+        start: "100% center", // When the top of the trigger element hits the top of the viewport
+        end: "200% center", // When the bottom of the trigger element hits the top of the viewport
         scrub: 1, // Adjust the scrub time for smoother syncing
       },
-      y:"45vh",
-      x:"32vw", // Change this value to adjust how much the video expands
-      width:320,
-      height:450,
+      y:"17vh",
+      x:"38vw", // Change this value to adjust how much the video expands
+      width:"34vw",
+      height:"32vw",
       ease: "power2.ease", // Smooth easing
       transform: "rotateX(0deg)"
     //   bottom:"-85vh",
     });
+
+
+
+
+
+
+
+
+
+    
+    // Portfolio Animation
+
+    
+
+    gsap.from(".PortfolioCard3", {
+      scrollTrigger: {
+        trigger: ".PortfolioSection",
+        start: "10% center", // When the top of the trigger element hits the top of the viewport
+        end: "13% center", // When the bottom of the trigger element hits the top of the viewport
+        // markers:true,
+        scrub:1
+      },
+      opacity: 0,
+      x:"-38vw", // Change this value to adjust how much the video expands
+      rotate:5,
+      ease: "power2.ease", // Smooth easing
+    //   bottom:"-85vh",
+    });
+
+    gsap.from(".PortfolioCard1", {
+      scrollTrigger: {
+        trigger: ".PortfolioSection",
+        start: "27% center", // When the top of the trigger element hits the top of the viewport
+        end: "30% center", // When the bottom of the trigger element hits the top of the viewport
+        // markers:true
+        scrub:1
+      },
+      opacity: 0,
+      x:"-38vw", // Change this value to adjust how much the video expands
+            rotate:5,
+
+      ease: "power2.ease", // Smooth easing
+    //   bottom:"-85vh",
+    });
+
+    gsap.from(".PortfolioCard6", {
+      scrollTrigger: {
+        trigger: ".PortfolioSection",
+        start: "42% center", // When the top of the trigger element hits the top of the viewport
+        end: "45% center", // When the bottom of the trigger element hits the top of the viewport
+        // markers:true,
+        scrub:1
+      },
+      opacity: 0,
+      x:"-38vw", // Change this value to adjust how much the video expands
+      rotate:5,
+      ease: "power2.ease", // Smooth easing
+    //   bottom:"-85vh",
+    });
+
+    gsap.from(".PortfolioCard2", {
+      scrollTrigger: {
+        trigger: ".PortfolioSection",
+        start: "65% center", // When the top of the trigger element hits the top of the viewport
+        end: "67% center", // When the bottom of the trigger element hits the top of the viewport
+        // markers:true,
+        scrub:1
+      },
+      opacity: 0,
+      x:"-38vw", // Change this value to adjust how much the video expands
+            rotate:5,
+
+      ease: "power2.ease", // Smooth easing
+    //   bottom:"-85vh",
+    });
+
+    gsap.from(".PortfolioCard5", {
+      scrollTrigger: {
+        trigger: ".PortfolioSection",
+        start: "85% center", // When the top of the trigger element hits the top of the viewport
+        end: "87% center", // When the bottom of the trigger element hits the top of the viewport
+        // markers:true,
+        scrub:1
+      },
+      opacity: 0,
+      x:"-38vw", // Change this value to adjust how much the video expands
+            rotate:5,
+
+      ease: "power2.ease", // Smooth easing
+    //   bottom:"-85vh",
+    });
+
+
+
+
+
+
+
+
+
+
+
 
 
 
